@@ -1,0 +1,97 @@
+---
+title: BD Iconic Bird Recognizer
+layout: page
+---
+
+<!-- 
+
+This code is for gradio version: 5.44.1  
+Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/BD-Iconic-Bird-Recognizer
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>BD Iconic Bird Recognizer</title>
+    <script type="module">
+        import { Client } from "https://cdn.jsdelivr.net/npm/@gradio/client@latest/dist/index.min.js";
+
+        async function predictBird() {
+        const fileInput = document.getElementById("imageUpload");
+        const preview = document.getElementById("preview");
+        const resultDiv = document.getElementById("result");
+
+        if (!fileInput.files.length) {
+            resultDiv.innerText = "Please upload an image first.";
+            return;
+        }
+
+        // ✅ Show preview image
+        const file = fileInput.files[0];
+        preview.src = URL.createObjectURL(file);
+        preview.style.display = "block";
+
+        try {
+            // change here ("Hasan9519/Cap-Recognizer") for other hugging spaces
+            const client = await Client.connect("Hasan9519/BD-Iconic-Bird-Recognizer");
+            const result = await client.predict("/predict", { image: file });
+
+            const outputObj = result.data[0];  // {label, confidences: [...]}
+            let all = outputObj.confidences;
+
+            // ✅ Sort by confidence descending
+            all = all.sort((a, b) => b.confidence - a.confidence);
+
+            // ✅ Top prediction
+            const topPred = all[0];
+            let output = `<h3 style="color:green;">Top Prediction: ${topPred.label} (${(topPred.confidence * 100).toFixed(2)}%)</h3>`;
+
+            // ✅ All predictions with confidence bars
+            output += "<h4>All Predictions:</h4>";
+            all.forEach((p, i) => {
+            const percent = (p.confidence * 100).toFixed(2);
+            const barColor = i === 0 ? "#4CAF50" : "#999"; // green for top, gray for others
+            output += `
+                <div style="margin:5px 0;">
+                <b>${p.label}</b>: ${percent}%
+                <div style="background:#eee; height:14px; border-radius:6px; overflow:hidden; max-width:300px;">
+                    <div style="width:${percent}%; background:${barColor}; height:100%;"></div>
+                </div>
+                </div>
+            `;
+            });
+
+            resultDiv.innerHTML = output;
+        } catch (err) {
+            console.error(err);
+            resultDiv.innerText = "Error: " + err.message;
+        }
+        }
+
+        // Expose function globally
+        window.predictCap = predictBird;
+    </script>
+</head>
+
+<body style="font-family: Arial, sans-serif; padding: 20px; text-align: center;">
+    <div style="max-width: 600px; margin: 0 auto;">
+        <!-- uncomment if any theme are not being used -->
+        <!-- <h1>Cap Recognizer</h1> -->
+        <p>Upload an image of a bird and get its prediction:</p>
+
+        <input type="file" id="imageUpload" accept="image/*"><br><br>
+        <button onclick="predictBird()">Predict</button>
+
+        <!-- ✅ Preview uploaded image -->
+        <br><br>
+        <img id="preview" style="max-width:300px; display:none; border:1px solid #ccc; margin-top:10px;"><br>
+
+        <div id="result" style="margin-top:20px; font-size:16px; color:#333;"></div>        
+    </div>
+</body>
+</html>
+ 

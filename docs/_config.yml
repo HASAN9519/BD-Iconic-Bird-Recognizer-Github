@@ -1,0 +1,9 @@
+remote_theme: daviddarnes/alembic@main
+plugins:
+- jekyll-remote-theme
+
+title: BD Iconic Bird Recognizer
+description: An image classification API that classifies 15 different type of birds found in Bangladesh
+
+author:
+  name: Hasan Uz Zaman
