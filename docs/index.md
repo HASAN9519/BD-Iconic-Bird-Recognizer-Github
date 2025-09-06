@@ -14,7 +14,7 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/Cap-
 Can classify 15 different type of birds found in Bangladesh. The types are following:
 
 <!-- looks not good in preview but looks good in github -->
-|![](images/test-1.jpg)|![](images/test-2.jpg)|![](images/test-3.jpg)|![](images/test-4.jpg)|![](images/test-5.jpg)|
+<!-- |![](images/test-1.jpg)|![](images/test-2.jpg)|![](images/test-3.jpg)|![](images/test-4.jpg)|![](images/test-5.jpg)|
 |--------------------------|--------------------------|---------------------------|-------------------------------|-------------------------------|
 |    Asian Koel (Kokil)    |  Black Drongo (Finge)    |Brahminy Kite (Shankh Chil)|Common Kingfisher (Machh Ranga)|     Common Myna (Shalik)      |
 
@@ -24,9 +24,9 @@ Can classify 15 different type of birds found in Bangladesh. The types are follo
 
 |![](images/test-11.jpg)|![](images/test-12.jpg)|![](images/test-13.jpg)|![](images/test-14.jpg)|![](images/test-15.jpg)|
 |---------------------------|---------------------------|---------------------------------|---------------------------|-------------------------------|
-|Red-vented Bulbul (Bulbul) | Rock Pigeon (Payerra)     |Rose-ringed Parakeet (Tiya Pakhi)|Spotted Dove (Telaghughu)  |White-breasted Waterhen (Dahuk)|
+|Red-vented Bulbul (Bulbul) | Rock Pigeon (Payerra)     |Rose-ringed Parakeet (Tiya Pakhi)|Spotted Dove (Telaghughu)  |White-breasted Waterhen (Dahuk)| -->
 
-<!-- <div style="text-align: center;">
+<div style="text-align: center;">
   <div style="display: inline-block; margin: 10px;">
     <img src="../deployment/test-1.jpg" width="150px" /><br>
     <span>Asian Koel (Kokil)</span>
@@ -47,7 +47,7 @@ Can classify 15 different type of birds found in Bangladesh. The types are follo
     <img src="../deployment/test-5.jpg" width="200px" /><br>
     <span>Common Myna (Shalik)</span>
   </div>
-</div>  -->
+</div> 
 
 
 
