@@ -24,30 +24,7 @@ Can classify 15 different type of birds found in Bangladesh. The types are follo
 
 |![](images/test-11.jpg)|![](images/test-12.jpg)|![](images/test-13.jpg)|![](images/test-14.jpg)|![](images/test-15.jpg)|
 |---------------------------|---------------------------|---------------------------------|---------------------------|-------------------------------|
-|Red-vented Bulbul (Bulbul) | Rock Pigeon (Payerra)     |Rose-ringed Parakeet (Tiya Pakhi)|Spotted Dove (Telaghughu)  |White-breasted Waterhen (Dahuk)| -->
-
-<div style="text-align: center;">
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-1.jpg" width="50px" /><br>
-    <span>Asian Koel (Kokil)</span>
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-2.jpg" width="50px" /><br>
-    <span>Black Drongo (Finge)</span>
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-3.jpg" width="50px" /><br>
-    <span>Brahminy Kite (Shankh Chil) </span>
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-4.jpg" width="50px" /><br>
-    <span>Common Kingfisher (Machh Ranga)</span>
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-5.jpg" width="50px" /><br>
-    <span>Common Myna (Shalik)</span>
-  </div>
-</div> 
+|Red-vented Bulbul (Bulbul) | Rock Pigeon (Payerra)     |Rose-ringed Parakeet (Tiya Pakhi)|Spotted Dove (Telaghughu)  |White-breasted Waterhen (Dahuk)| --> 
 
 <div style="text-align: center;">
   <div style="display: inline-block; margin: 10px;">
@@ -62,38 +39,69 @@ Can classify 15 different type of birds found in Bangladesh. The types are follo
     <img src="images/test-3.jpg" width="200px" /><br>
     <span>Brahminy Kite (Shankh Chil) </span>
   </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-4.jpg" width="200px" /><br>
-    <span>Common Kingfisher (Machh Ranga)</span>
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-5.jpg" width="200px" /><br>
-    <span>Common Myna (Shalik)</span>
-  </div>
-</div> 
+</div>  
 
 <div style="text-align: center;">
   <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-1.jpg" width="150px" /><br>
-    <span>Asian Koel (Kokil)</span>
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-2.jpg" width="150px" /><br>
-    <span>Black Drongo (Finge)</span>
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-3.jpg" width="200px" /><br>
-    <span>Brahminy Kite (Shankh Chil) </span>
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-4.jpg" width="200px" /><br>
+    <img src="images/test-4.jpg" width="150px" /><br>
     <span>Common Kingfisher (Machh Ranga)</span>
   </div>
   <div style="display: inline-block; margin: 10px;">
-    <img src="images/test-5.jpg" width="200px" /><br>
+    <img src="images/test-5.jpg" width="150px" /><br>
     <span>Common Myna (Shalik)</span>
   </div>
-</div> 
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-6.jpg" width="150px" /><br>
+    <span>House Crow (Pati Kak)</span>
+  </div>
+</div>  
+
+<div style="text-align: center;">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-7.jpg" width="150px" /><br>
+    <span>House Sparrow (Chorui)</span>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-8.jpg" width="150px" /><br>
+    <span>BIndian Pond Heron (Kani Bok)</span>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-9.jpg" width="100px" /><br>
+    <span>Little Cormorant (Pankowri)</span>
+  </div>
+</div>  
+
+<div style="text-align: center;">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-10.jpg" width="150px" /><br>
+    <span>Oriental Magpie-Robin (Doel)</span>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-11.jpg" width="150px" /><br>
+    <span>Red-vented Bulbul (Bulbul)</span>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-12.jpg" width="200px" /><br>
+    <span>Rock Pigeon (Payerra)</span>
+  </div>
+</div>  
+
+<div style="text-align: center;">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-13.jpg" width="150px" /><br>
+    <span>Rose-ringed Parakeet (Tiya Pakhi)</span>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-14.jpg" width="150px" /><br>
+    <span>Spotted Dove (Telaghughu)</span>
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="images/test-15.jpg" width="200px" /><br>
+    <span>White-breasted Waterhen (Dahuk)</span>
+  </div>
+</div>  
+
+
 
 <!-- uncomment if any theme are not being used -->
 <!-- ### 🔍 Try It Yourself  
