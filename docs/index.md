@@ -10,7 +10,7 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/Cap-
 
  -->
 
-# 🧢 Recognizing Iconic Birds of Bangladesh 
+# 🐦‍🔥 Recognizing Iconic Birds of Bangladesh 
 Can classify 15 different type of birds found in Bangladesh. The types are following:
 
 <!-- looks not good in preview but looks good in github -->
