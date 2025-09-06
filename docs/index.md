@@ -28,23 +28,23 @@ Can classify 15 different type of birds found in Bangladesh. The types are follo
 
 <div style="text-align: center;">
   <div style="display: inline-block; margin: 10px;">
-    <img src="../deployment/test-1.jpg" width="150px" /><br>
+    <img src="images/test-1.jpg" width="150px" /><br>
     <span>Asian Koel (Kokil)</span>
   </div>
   <div style="display: inline-block; margin: 10px;">
-    <img src="../deployment/test-2.jpg" width="150px" /><br>
+    <img src="images/test-2.jpg" width="150px" /><br>
     <span>Black Drongo (Finge)</span>
   </div>
   <div style="display: inline-block; margin: 10px;">
-    <img src="../deployment/test-3.jpg" width="200px" /><br>
+    <img src="images/test-3.jpg" width="200px" /><br>
     <span>Brahminy Kite (Shankh Chil) </span>
   </div>
   <div style="display: inline-block; margin: 10px;">
-    <img src="../deployment/test-4.jpg" width="200px" /><br>
+    <img src="images/test-4.jpg" width="200px" /><br>
     <span>Common Kingfisher (Machh Ranga)</span>
   </div>
   <div style="display: inline-block; margin: 10px;">
-    <img src="../deployment/test-5.jpg" width="200px" /><br>
+    <img src="images/test-5.jpg" width="200px" /><br>
     <span>Common Myna (Shalik)</span>
   </div>
 </div> 
