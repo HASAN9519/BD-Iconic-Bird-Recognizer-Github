@@ -13,21 +13,18 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/Cap-
 # 🧢 Recognizing Iconic Birds of Bangladesh 
 Can classify 15 different type of birds found in Bangladesh. The types are following:
 
-1. Asian Koel (Kokil)
-2. Black Drongo (Finge)
-3. Brahminy Kite (Shankh Chil)
-4. Common Kingfisher (Machh Ranga)
-5. Common Myna (Shalik)
-6. House Crow (Pati Kak)
-7. House Sparrow (Chorui)
-8. Indian Pond Heron (Kani Bok)
-9. Little Cormorant (Pankowri)
-10. Oriental Magpie-Robin (Doel)
-11. Red-vented Bulbul (Bulbul)
-12. Rock Pigeon (Payerra)
-13. Rose-ringed Parakeet (Tiya Pakhi)
-14. Spotted Dove (Telaghughu)
-15. White-breasted Waterhen (Dahuk)
+<!-- looks not good in preview but looks good in github -->
+|![](../deployment/test-1.jpg)|![](../deployment/test-2.jpg)|![](../deployment/test-3.jpg)|![](../deployment/test-4.jpg)|![](../deployment/test-5.jpg)|
+|--------------------------|--------------------------|---------------------------|-------------------------------|-------------------------------|
+|    Asian Koel (Kokil)    |  Black Drongo (Finge)    |Brahminy Kite (Shankh Chil)|Common Kingfisher (Machh Ranga)|     Common Myna (Shalik)      |
+
+|![](../deployment/test-6.jpg)|![](../deployment/test-7.jpg)|![](../deployment/test-8.jpg)|![](../deployment/test-9.jpg)|![](../deployment/test-10.jpg)|
+|-----------------------|------------------------|------------------------------|-----------------------------|-------------------------------|
+| House Crow (Pati Kak) | House Sparrow (Chorui) | Indian Pond Heron (Kani Bok) | Little Cormorant (Pankowri) | Oriental Magpie-Robin (Doel)  |
+
+|![](../deployment/test-11.jpg)|![](../deployment/test-12.jpg)|![](../deployment/test-13.jpg)|![](../deployment/test-14.jpg)|![](../deployment/test-15.jpg)|
+|---------------------------|---------------------------|---------------------------------|---------------------------|-------------------------------|
+|Red-vented Bulbul (Bulbul) | Rock Pigeon (Payerra)     |Rose-ringed Parakeet (Tiya Pakhi)|Spotted Dove (Telaghughu)  |White-breasted Waterhen (Dahuk)|
 
 <!-- uncomment if any theme are not being used -->
 <!-- ### 🔍 Try It Yourself  
