@@ -30,7 +30,7 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/BD-I
             return;
         }
 
-        // ✅ Show preview image
+        // Show preview image
         const file = fileInput.files[0];
         preview.src = URL.createObjectURL(file);
         preview.style.display = "block";
@@ -43,16 +43,21 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/BD-I
             const outputObj = result.data[0];  // {label, confidences: [...]}
             let all = outputObj.confidences;
 
-            // ✅ Sort by confidence descending
+            // Sort by confidence descending
             all = all.sort((a, b) => b.confidence - a.confidence);
 
-            // ✅ Top prediction
+            // Top prediction
             const topPred = all[0];
             let output = `<h3 style="color:green;">Top Prediction: ${topPred.label} (${(topPred.confidence * 100).toFixed(2)}%)</h3>`;
 
-            // ✅ All predictions with confidence bars
-            output += "<h4>All Predictions:</h4>";
-            all.forEach((p, i) => {
+            // predictions with confidence bars
+            // output += "<h4>All Predictions:</h4>";
+            // all.forEach((p, i) => {
+
+            // All predictions with confidence bars (Top 5 only)
+            output += "<h4>Top 5 Predictions:</h4>";
+            all.slice(0, 5).forEach((p, i) => {
+
             const percent = (p.confidence * 100).toFixed(2);
             const barColor = i === 0 ? "#4CAF50" : "#999"; // green for top, gray for others
             output += `
@@ -86,7 +91,7 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/BD-I
         <input type="file" id="imageUpload" accept="image/*"><br><br>
         <button onclick="predictBird()">Predict</button>
 
-        <!-- ✅ Preview uploaded image -->
+        <!-- Preview uploaded image -->
         <br><br>
         <img id="preview" style="max-width:300px; display:none; border:1px solid #ccc; margin-top:10px;"><br>
 
