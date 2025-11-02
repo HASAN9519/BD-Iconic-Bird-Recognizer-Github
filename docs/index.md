@@ -63,10 +63,10 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/Cap-
     <button>🔍 Try the Bird Recognizer</button>
   </a>
 </div>
-
+<br>
 
 <!-- looks not good in preview but looks good in github -->
-|       ![](images/test-1.jpg)      |                   ![](images/test-2.jpg)        |     ![](images/test-3.jpg)         |
+<!-- |       ![](images/test-1.jpg)      |                   ![](images/test-2.jpg)        |     ![](images/test-3.jpg)         |
 |----------------------------------------|------------------------------------------------------|-----------------------------------------|
 | <p align="justify">Asian Koel (Kokil):<br>Known for its loud, resonant calls during the breeding season, the male Asian Koel is a glossy black cuckoo with crimson eyes. The female is dark brown with white spots.</p> | <p align="justify">Black Drongo (Finge):<br>This insectivorous bird is known for its glossy black plumage, forked tail, aggressive and fearless nature. It is a familiar sight perched on bare branches or wires in open countryside.</p> | <p align="justify">Brahminy Kite (Shankh Chil):<br>A distinctive bird of prey with a contrasting chestnut body and a striking white head and breast. It can often be seen soaring over coasts and wetlands.</p> |
 
@@ -84,21 +84,9 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/Cap-
 
 |       ![](images/test-13.jpg)      |                   ![](images/test-14.jpg)        |     ![](images/test-15.jpg)         |
 |-----------------------------------------|-------------------------------------------------------|------------------------------------------|
-| <p align="justify">Rose-ringed Parakeet (Tiya Pakhi):<br>This medium-sized parrot species is native to Africa and the Indian subcontinent and feral populations have been introduced to many other parts of the world.</p> | <p align="justify">Spotted Dove (Telaghughu):<br>A medium-sized, swift-flying dove with a distinctive spotted patch on its neck. It is a common resident in suburban areas.</p> | <p align="justify">White-breasted Waterhen (Dahuk):<br>This shy, medium-sized waterbird is recognized by its slate-grey body and a clean white face and breast. It is often heard more than seen, with its distinctive calls echoing from dense waterside vegetation.</p> |
+| <p align="justify">Rose-ringed Parakeet (Tiya Pakhi):<br>This medium-sized parrot species is native to Africa and the Indian subcontinent and feral populations have been introduced to many other parts of the world.</p> | <p align="justify">Spotted Dove (Telaghughu):<br>A medium-sized, swift-flying dove with a distinctive spotted patch on its neck. It is a common resident in suburban areas.</p> | <p align="justify">White-breasted Waterhen (Dahuk):<br>This shy, medium-sized waterbird is recognized by its slate-grey body and a clean white face and breast. It is often heard more than seen, with its distinctive calls echoing from dense waterside vegetation.</p> | -->
 
 
-<!-- looks not good in preview but looks good in github -->
-<!-- |![](images/test-1.jpg)|![](images/test-2.jpg)|![](images/test-3.jpg)|![](images/test-4.jpg)|![](images/test-5.jpg)|
-|--------------------------|--------------------------|---------------------------|-------------------------------|-------------------------------|
-|    Asian Koel (Kokil)    |  Black Drongo (Finge)    |Brahminy Kite (Shankh Chil)|Common Kingfisher (Machh Ranga)|     Common Myna (Shalik)      |
-
-|![](images/test-6.jpg)|![](images/test-7.jpg)|![](images/test-8.jpg)|![](images/test-9.jpg)|![](images/test-10.jpg)|
-|-----------------------|------------------------|------------------------------|-----------------------------|-------------------------------|
-| House Crow (Pati Kak) | House Sparrow (Chorui) | Indian Pond Heron (Kani Bok) | Little Cormorant (Pankowri) | Oriental Magpie-Robin (Doel)  |
-
-|![](images/test-11.jpg)|![](images/test-12.jpg)|![](images/test-13.jpg)|![](images/test-14.jpg)|![](images/test-15.jpg)|
-|---------------------------|---------------------------|---------------------------------|---------------------------|-------------------------------|
-|Red-vented Bulbul (Bulbul) | Rock Pigeon (Payerra)     |Rose-ringed Parakeet (Tiya Pakhi)|Spotted Dove (Telaghughu)  |White-breasted Waterhen (Dahuk)| --> 
 
 <!-- <div style="text-align: center;">
   <div style="display: inline-block; margin: 10px;">
@@ -181,6 +169,65 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/Cap-
 <!-- ### 🔍 Try It Yourself  
 Upload an image and get predictions using our [Cap Recognizer Tool](./cap_recognizer.html). -->
 <!-- --- -->
+
+
+
+<style>
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: sans-serif;
+  }
+  h1, p {
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  td {
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid #333;
+  }
+  img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .button-container {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .button-container a button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    color: #aaa;
+  }
+</style>
+
+<!-- <h1>🐦 Iconic Birds of Bangladesh</h1>
+<p><em>Discover the beauty and diversity of our feathered friends</em></p> -->
+
+<table>
+  <tr>
+    <td><img src="images/test-1.jpg"><p align="justify"><strong>Asian Koel (Kokil):</strong><br>Known for its loud, resonant calls during the breeding season, the male Asian Koel is a glossy black cuckoo with crimson eyes. The female is dark brown with white spots.</p></td>
+    <td><img src="images/test-2.jpg"><p align="justify"><strong>Black Drongo (Finge):</strong><br>This insectivorous bird is known for its glossy black plumage, forked tail, aggressive and fearless nature. It is a familiar sight perched on bare branches or wires in open countryside.</p></td>
+    <td><img src="images/test-3.jpg"><p align="justify"><strong>Brahminy Kite (Shankh Chil):</strong><br>A distinctive bird of prey with a contrasting chestnut body and a striking white head and breast. It can often be seen soaring over coasts and wetlands.</p></td>
+  </tr>
+  <!-- Repeat similar <tr> blocks for the remaining birds -->
+</table>
+
 
 <footer>
   Made with ❤️ by Hasan · Powered by GitHub Pages
