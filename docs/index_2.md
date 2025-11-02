@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Iconic Birds of Bangladesh
+# title: Iconic Birds of Bangladesh
 ---
 
 <!-- ---
