@@ -1,3 +1,8 @@
+---
+layout: default
+title: Iconic Birds of Bangladesh
+---
+
 <!-- ---
 title: Home
 layout: page
@@ -10,8 +15,55 @@ Project Space link in Hugging Face: https://huggingface.co/spaces/Hasan9519/Cap-
 
  -->
 
-# 🐦‍🔥 Recognizing Iconic Birds of Bangladesh 
-Can classify 15 different type of birds found in Bangladesh. The types are following:
+<style>
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: sans-serif;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #333;
+    padding: 10px;
+    vertical-align: top;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    color: #aaa;
+  }
+</style>
+
+
+<div style="text-align: center;">
+  <h1>🐦 Iconic Birds of Bangladesh</h1>
+  <p><em>Discover the beauty and diversity of our feathered friends</em></p>
+</div>
+
+
+<div align="center">
+  <a href="bd_iconic_bird-recognizer.html">
+    <button>🔍 Try the Bird Recognizer</button>
+  </a>
+</div>
+
 
 <!-- looks not good in preview but looks good in github -->
 |       ![](images/test-1.jpg)      |                   ![](images/test-2.jpg)        |     ![](images/test-3.jpg)         |
@@ -130,4 +182,6 @@ Can classify 15 different type of birds found in Bangladesh. The types are follo
 Upload an image and get predictions using our [Cap Recognizer Tool](./cap_recognizer.html). -->
 <!-- --- -->
 
- 
+<footer>
+  Made with ❤️ by Hasan · Powered by GitHub Pages
+</footer>
